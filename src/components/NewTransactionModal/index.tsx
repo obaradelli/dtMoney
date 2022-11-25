@@ -44,7 +44,6 @@ export function NewTransactionModal() {
       type: 'income',
     },
   })
-
   async function handleCreateNewTransaction(data: NewTransactionFormInputs) {
     const { description, price, category, type } = data
 
